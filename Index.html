@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sayyed Riza Jahan</title>
+    <link rel="stylesheet" href="final.css">
+    </style>
+    <script src="https://kit.fontawesome.com/0e72ff57db.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="header">
+        <nav>
+            <div class="left"><span id="r">R</span>iza </div>
+            <i class='bx bx-menu-alt-left'></i>
+            <div class="right">
+                <ul id="side_menu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#Project">Projects</a></li>
+                    <li><a href="#portfolio">Work</a></li>
+                    <li><a href="#Contact">Contact</a></li>
+                    <i class="fa-solid fa-square-xmark" onclick="close_menu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="open_menu()"></i>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">Hello, It's <span class="name">Sayyed</span><br> Riza Jahan
+                <div>
+                    I'm a
+                </div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Github</button>
+                    <a href="C:\Users\hplap\OneDrive\Desktop\doc1.docx" download class="btn_2">Resume</a>
+                </div>
+            </div>
+            <div class="rightsection"><img src="main profile.jpg" height="450px" alt="Myimg"> </div>
+        </section>
+        <hr>
+        <!--Service page-->
+        <section class="services" id="Services">
+            <h1 class="service-header"><span class="Service_S">S</span>ervices</h1>
+            <div class="service-container">
+                <div class="box">
+                    <h1><span>Web-Development</span></h1>
+                    <p>I build simple and user-friendly websites that showcase your business. My focus is on making sure
+                        your site looks great and is easy to navigate for visitors. Together, we can create a website
+                        that attracts customers and helps you achieve your business goals.</p>
+                    <img src="web-design.jpeg" alt="img1">
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="box">
+                    <h1><span>Graphic-Design</span></h1>
+                    <p>I design eye-catching graphics that make your brand stand out. This includes logos, social media
+                        images, and promotional materials. I work closely with you to understand your vision and create
+                        designs that reflect your style and identity. Together, we can bring your ideas to life.</p>
+                    <img src="web2.jpeg" alt="img2">
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="box">
+                    <h1><span>Video Editing</span></h1>
+                    <p>I provide video editing services to help you create polished and professional-looking videos.
+                        Whether you need edits for promotional content, social media clips, or personal projects, I
+                        focus on enhancing the visuals and sound. My goal is to bring your story to life and keep your
+                        audience engaged.</p>
+                    <img src="video editing.jpeg" alt="img2">
+                    <a href="#">Learn More</a>
+                </div>
+                <div class="box">
+                    <h1><span>Excel Sheet Work</span></h1>
+                    <p>I offer assistance with MS Excel to help you organize and analyze your data efficiently. Whether
+                        you need help with formulas, charts, or data entry, I aim to make your spreadsheets clear and
+                        easy to understand. Together, we can streamline your data management and improve productivity.
+                    </p>
+                    <img src="graph.jpeg" alt="img2">
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </section>
+        <!--About-->
+        <div class="about" id="About">
+            <div class="about_container">
+                <div class="about_row">
+                    <div class="about_col1">
+                        <img src="about1.jpg" alt="img">
+                    </div>
+                    <div class="about_col2">
+                        <h1 class="about_sub">About me</h1>
+                        <p>As a second year BCA Student with a foundation in computer applications and a passion for
+                            technology, I am eager to build a career in the IT field. My goal is to leverage my academic
+                            knowledge and problem-solving skills to contribute effectively to a dynamic organization,
+                            while continuously learning and growing within the industry. </p>
+                        <div class="tab_title">
+                            <p class="tab_links active_link" onclick="open_tab('Skills')">Skills</p>
+                            <p class="tab_links" onclick="open_tab('Experience')">Experience</p>
+                            <p class="tab_links" onclick="open_tab('Education')">Education</p>
+                        </div>
+                        <div class="tab_contents active_content" id="Skills">
+                            <ul>
+                                <li><span>Editing</span><br>Photo and Video Editing</li>
+                                <li><span>Web Developer</span><br>Frontened Developer</li>
+                                <li><span>Excel and word</span><br>learnt advanced word and excel spreadsheets</li>
+                            </ul>
+                        </div>
+                        <div class="tab_contents" id="Experience">
+                            <ul>
+                                <li><span>Dailibud</span><br>Designer Web App Interfacess</li>
+                                <li><span>Certification</span><br>Certified In Marketing Mindset</li>
+                                <li><span>Virtual Vista</span><br>National Level Competetion<br> Cleared First Round
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tab_contents" id="Education">
+                            <ul>
+                                <li><span>Higher</span><br>From Rainbow Higher Secondary School with percentage of 79.
+                                </li>
+                                <li><span>Higher Secondary</span><br>From Rainbow Higher Secondary School with
+                                    percentage of 73.</li>
+                                <li><span>Graduation(Currently Pursuing)</span><br>From Amity University Gwalior with
+                                    cgpa of 8.85.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Project page-->
+        <div class="project" id="Project">
+            <div class="project_container">
+                <h1 class="Sub_title">My Projects</h1>
+                <div class="project_list">
+                    <div>
+                        <i class="fa-solid fa-code"></i>
+                        <h2>Dailibud</h2>
+                        <p>This project is dedicated to help people take control of their daily expenses, Whether they
+                            are spending money to buy food, or to buy a new car, their daily records will save here. We
+                            will make sure if they need one packet of milk for a day or two, we aim to record their
+                            cheap expenses in simple, effective and accessible manner for everyone.</p>
+                    </div>
+                    <div><i class="fa-solid fa-crop"></i>
+                        <h2>Portfolio</h2>
+                        <p>This is my portfolio! Here, you’ll find a selection of my work in graphic design, video
+                            editing, and MS Excel data management. Each project reflects my commitment to quality and
+                            creativity, showcasing my ability to help clients achieve their goals. Explore my work to
+                            see how I can bring your ideas to life!
+
+                        </p>
+                    </div>
+                    <div><i class="fa-brands fa-app-store"></i>
+                        <h2>Resume</h2>
+                        <p>This resume project showcases my professional journey and skills in a clear, visually
+                            appealing format. It highlights my qualifications and design abilities, making it an
+                            effective tool for potential employers. Explore how I can contribute to your team!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--portfolio-->
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="Sub_title">My Work</h1>
+                <div class="worklist">
+                    <div class="work">
+                        <img src="work.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app help you to connect more talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app help you to connect more talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="work.jpg">
+                        <div class="layer">
+                            <h3>Social Media App</h3>
+                            <p>This app help you to connect more talented people around the world.
+                                Download it from playstore.
+                            </p>
+                            <a href="#"><i class="fa-solid fa-link"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <!-- <a href="#" class="bttn">See More</a>-->
+            </div>
+        </div>
+        <!--Contact Form-->
+        <div class="contact" id="Contact">
+            <div class="container">
+                <div class="about_row">
+                    <div class="contact_left">
+                        <h1 class="Sub_title">CONTACT ME</h1>
+                        <p><i class="fa-solid fa-paper-plane"></i>rizajahan63@gmail.com</p>
+                        <p><i class="fa-solid fa-square-phone"></i>+91 6232351769</p>
+                        <div class="social_icons">
+                            <a href="https://www.instagram.com/honeybliss_2?igsh=N2M0enJhNG9lZm02"><i
+                                    class="fa-brands fa-instagram"></i></a>
+                            <a
+                                href="https://www.linkedin.com/in/sayyed-riza-3718022b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i
+                                    class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://youtube.com/@honeybliss_?si=KNYGqDn469yDo_yY"><i
+                                    class="fa-brands fa-youtube"></i></a>
+                        </div>
+                        <!--  <a href="C:\Users\hplap\OneDrive\Desktop\Sayyed Riza's Resume.pdf" download
+                                class="bttn bttn2">Download CV</a>-->
+                    </div>
+                    <div class="contact_right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder=" Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message" row="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="bttn bttn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright &#169; Riza. Made By Sayyed Riza Jahan.</p>
+            </div>
+        </div>
+
+    </main>
+    <!--typed-->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['<i>Web</i> Developer.', '<i>Tech</i> Student.', '<i>Video</i> Editor.'],
+            typeSpeed: 50,
+        });
+    </script> <!--Animation-->
+    <!--About page function-->
+    <script>
+        var tablinks = document.getElementsByClassName("tab_links");
+        var tabcontents = document.getElementsByClassName("tab_contents");
+        function open_tab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active_link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active_content");
+            }
+            event.currentTarget.classList.add("active_link");
+            document.getElementById(tabname).classList.add("active_content");
+        }
+    </script><!--about function end-->
+    <!--For CSS for small size -->
+    <script>
+        var sidemenu = document.getElementById('side_menu');
+        function open_menu() {
+            sidemenu.style.right = "0";
+        }
+        function close_menu() {
+            sidemenu.style.right = "-200";
+        }
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxKyhbuoNzybOkxbhfnENrwRCdtB4mGKGGprsOZe8Oz_HVPcHPX_nUAjWlQkTlk0wj5/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById('msg')
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message Sent Successfully."
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 1000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
